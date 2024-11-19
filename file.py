@@ -19,6 +19,6 @@ try:
                 print(f'error: invalid line "{line.strip()}": {ve}')
                 continue
 
-except FileNotFoundError as fnfe:
+except FileNotFoundError as fnf:
     print(f'error: file "{file}" not found')
 
